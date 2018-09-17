@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bachelorarbeit-216709",
+  "private_key_id": "3cfc2e17ff3f9fb6042f50fe7ca7fbe1165755e5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD1h2QY1K81BYk2\nxXFXZW58hhw0gCxqGuB8iQK7/p0U2AS2SpcrC9Z1yUf5XRZqddvKBgB5KxzC7ys0\nzZfqkcCi8CDgrrKexQKrSVvtNlb1widb5wO8Ez+8sxi7dJ94d+n5UB/NO39Ap4e/\nMIl/qqv/j2tZySMCRbY9uL697FvEPA7ARieY+6/jMxEWvGsDFD3LblH2g7ykgGvP\nBPke53x81kxHFal36ONXvf8yRM6hNSCv1aw9jcKgISH0yG9dzE4zNVqg0p28rtiB\nk+FAh5+Yid7K2ctvTudpCTf6go3u5bCT9xnNujbNrCW6SyV4zKKMTMc/hMLs0LOo\nOEzRZjhvAgMBAAECggEAZP2CBhahVHlI9a7jzlNpzS1qd4vK+P/CG2dNqR7y5Ipv\n8b0fjbSqSzt179NCr5p3w5KRakV56JJwnqD8Hh9CcaK8mz4wOU8GqIadmaYSwbZQ\n8yPD7P2r50VxZFV1bJtCMWqsEgIpduIR22mu/MSqR41p1f39+ObMrXmKd1s7aayO\nDUdy/g4U8Zq6KqRaCHJLZGUDzn0d2xXXQPTAGGbQTG+AZTwqW9Mgj6xDsNm1lB9Q\nOXydT5f8alIPkS2hzciQQr1Zt6XQM2K616UzNosWeGkdd6kl7sn15hKiOkCbMUWX\npXfjoqX4Ev0WP5xxAf8p76V2SzWEc7Gi542qRG8MMQKBgQD+sE7PJ7RbZuBaqDdt\nv/7FVbdhF6vTAvoOoOSezQj3qYPk5jsyjBvxkru71aJfgeQJBXquXg3mDWs0Z4CW\nFIAtaeZ9hBcH4CYwlm8vV965yOUQ1HIPWFQRJ+FR62Puj0VnLQ9icV8n+2X3t0pu\nyJ5sNKJufIpHxFvteGY3IgPSUQKBgQD2ywKSpfJz2guTDEZtdrSMRLA4UwEHyTvZ\nWQhljZTCm/KznIt5YrbzcWG/9Cu9PV2Yrl6ODlNE9qtUoeap44CsYG3mTOZvsl5n\nD7qyrjV+IBEDFIS2mLKICehz20mq0EY0re5lcPBg4PRi7kAhyyKwRf9kFvSdg/AU\nVrk6hHXuvwKBgHZArEbY24/4w0C0jA/kLkm3k8577CasYig6ogvtjTVYusmj8GZ2\n0V6nz4zWE28e4x8hMSYWu4NORbFuQTDt0dnEKuWqV/srIvA6WON1fA9s7JaU3WSs\nkVPp3V9o2NxiH0pZjKQbmZ/5xQ1wSBoKAiyhf62nG5lY3Ynz9hmxLG8RAoGBAIsv\nKS9NufROl9KBzMJ1fRPStVO+tEkQ29kTlmG3vJsY2oMjmaGG48leO5PHgFeE4WF3\njcouGBY/y5a6jF1p+iq9Y53L5vY9sXIMc+3LxE1yhkWnb8WPTrjcZaXZma1lMwMI\nyPea/2aT2CBnX/HvH4wsngFz1Nd1DpRZ6LMw+1X/AoGBAM22pssatAPN+UNEMFNj\nHeTYQHFNOcv2JB0690CKpigJ9RMGKbCm78JDiBqvEZpj14I5CyMJXoqzGiL2jYsP\nzfe464BRXQamimUV1x5irHJAyqyBmCtvqPPvEEDR3GCvrhMHodEXyFMNjBgrJ5qK\nuGKBnpaOLzHGRz2vyGq+nfQK\n-----END PRIVATE KEY-----\n",
+  "client_email": "intellij@bachelorarbeit-216709.iam.gserviceaccount.com",
+  "client_id": "106478632676914250443",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/intellij%40bachelorarbeit-216709.iam.gserviceaccount.com"
+}

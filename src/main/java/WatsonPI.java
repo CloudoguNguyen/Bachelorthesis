@@ -13,7 +13,7 @@ public class WatsonPI implements Serializable {
     private String username;
     private String password;
     PersonalityInsights pi;
-    Profile profile;
+
 
     public WatsonPI() {
 
@@ -22,26 +22,28 @@ public class WatsonPI implements Serializable {
         pi = new PersonalityInsights("2017-10-13",username,password);
     }
 
-    public void setProfile(String path) {
+    public Profile getProfile(String pathToTexts) {
 
         try {
-            JsonReader jsonReader = new JsonReader(new FileReader(path));
+            JsonReader jsonReader = new JsonReader(new FileReader(pathToTexts));
             Content content = GsonSingleton.getGson().fromJson(jsonReader, Content.class);
             ProfileOptions profileOptions = new ProfileOptions.Builder().content(content).consumptionPreferences(true).rawScores(true).build();
-            profile = pi.profile(profileOptions).execute();
+            Profile profile = pi.profile(profileOptions).execute();
+
+            return profile;
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (Exception e){
             System.out.printf("Error: %s \n", e.getMessage());        }
-
+        return null;
     }
 
-    public void saveWatson() {
+    public static void saveProfile(Profile p) {
         try (FileOutputStream fos = new FileOutputStream("src/main/resources/p");
              ObjectOutputStream oos = new ObjectOutputStream(fos))
         {
-            oos.writeObject(this);
+            oos.writeObject(p);
             System.out.println("Serialization of Object completed.");
         }
         catch (IOException ioException)
@@ -50,12 +52,12 @@ public class WatsonPI implements Serializable {
         }
     }
 
-    public static WatsonPI loadWatson() {
-        WatsonPI pi = null;
+    public static Profile loadProfile() {
+        Profile p = null;
         try (FileInputStream fis = new FileInputStream("src/main/resources/p");
              ObjectInputStream ois = new ObjectInputStream(fis))
         {
-            pi = (WatsonPI) ois.readObject();
+            p = (Profile) ois.readObject();
             System.out.println("Deserialization of Object is completed.");
         }
         catch (IOException | ClassNotFoundException exception)
@@ -63,10 +65,7 @@ public class WatsonPI implements Serializable {
             exception.printStackTrace();
         }
 
-        return pi;
+        return p;
     }
 
-    public Profile getProfile() {
-        return profile;
-    }
 }
