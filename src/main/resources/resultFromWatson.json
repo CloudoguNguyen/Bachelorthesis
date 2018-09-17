@@ -1,0 +1,286 @@
+[{
+  "trait_id": "big5_openness",
+  "name": "Openness",
+  "category": "personality",
+  "percentile": 0.8011555009552995,
+  "raw_score": 0.7756540425503807,
+  "significant": true,
+  "children": [
+    {
+      "trait_id": "facet_adventurousness",
+      "name": "Adventurousness",
+      "category": "personality",
+      "percentile": 0.8975586904731845,
+      "raw_score": 0.5499070403121895,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_artistic_interests",
+      "name": "Artistic interests",
+      "category": "personality",
+      "percentile": 0.9770309419531928,
+      "raw_score": 0.7663670485959848,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_emotionality",
+      "name": "Emotionality",
+      "category": "personality",
+      "percentile": 0.9947058875647474,
+      "raw_score": 0.7524002152027129,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_imagination",
+      "name": "Imagination",
+      "category": "personality",
+      "percentile": 0.8733065387317427,
+      "raw_score": 0.7915903144017664,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_intellect",
+      "name": "Intellect",
+      "category": "personality",
+      "percentile": 0.8717194796402048,
+      "raw_score": 0.6597622585300698,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_liberalism",
+      "name": "Authority-challenging",
+      "category": "personality",
+      "percentile": 0.6405414845731188,
+      "raw_score": 0.5343564751353818,
+      "significant": true
+    }
+  ]
+}, {
+  "trait_id": "big5_conscientiousness",
+  "name": "Conscientiousness",
+  "category": "personality",
+  "percentile": 0.8100175318417563,
+  "raw_score": 0.6689998488881541,
+  "significant": true,
+  "children": [
+    {
+      "trait_id": "facet_achievement_striving",
+      "name": "Achievement striving",
+      "category": "personality",
+      "percentile": 0.8461329922662866,
+      "raw_score": 0.7424011845488813,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_cautiousness",
+      "name": "Cautiousness",
+      "category": "personality",
+      "percentile": 0.7220362727004095,
+      "raw_score": 0.5296482988959433,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_dutifulness",
+      "name": "Dutifulness",
+      "category": "personality",
+      "percentile": 0.8421638467925526,
+      "raw_score": 0.6834730565103806,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_orderliness",
+      "name": "Orderliness",
+      "category": "personality",
+      "percentile": 0.6121858586705439,
+      "raw_score": 0.5034920799431659,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_self_discipline",
+      "name": "Self-discipline",
+      "category": "personality",
+      "percentile": 0.8317329416265957,
+      "raw_score": 0.6164336331263531,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_self_efficacy",
+      "name": "Self-efficacy",
+      "category": "personality",
+      "percentile": 0.7088313709543814,
+      "raw_score": 0.7724413163310404,
+      "significant": true
+    }
+  ]
+}, {
+  "trait_id": "big5_extraversion",
+  "name": "Extraversion",
+  "category": "personality",
+  "percentile": 0.6498079607138149,
+  "raw_score": 0.5681773878116609,
+  "significant": true,
+  "children": [
+    {
+      "trait_id": "facet_activity_level",
+      "name": "Activity level",
+      "category": "personality",
+      "percentile": 0.8822058491396555,
+      "raw_score": 0.601069959261432,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_assertiveness",
+      "name": "Assertiveness",
+      "category": "personality",
+      "percentile": 0.668984138017408,
+      "raw_score": 0.6659099991098552,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_cheerfulness",
+      "name": "Cheerfulness",
+      "category": "personality",
+      "percentile": 0.9435264775235841,
+      "raw_score": 0.671332415082109,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_excitement_seeking",
+      "name": "Excitement-seeking",
+      "category": "personality",
+      "percentile": 0.5913387477205387,
+      "raw_score": 0.6133983269914512,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_friendliness",
+      "name": "Outgoing",
+      "category": "personality",
+      "percentile": 0.9577289025786415,
+      "raw_score": 0.6470028893580065,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_gregariousness",
+      "name": "Gregariousness",
+      "category": "personality",
+      "percentile": 0.6494284805198479,
+      "raw_score": 0.47307370681644134,
+      "significant": true
+    }
+  ]
+}, {
+  "trait_id": "big5_agreeableness",
+  "name": "Agreeableness",
+  "category": "personality",
+  "percentile": 0.9478612479382098,
+  "raw_score": 0.8067781563180878,
+  "significant": true,
+  "children": [
+    {
+      "trait_id": "facet_altruism",
+      "name": "Altruism",
+      "category": "personality",
+      "percentile": 0.9924198382420473,
+      "raw_score": 0.7902840629074717,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_cooperation",
+      "name": "Cooperation",
+      "category": "personality",
+      "percentile": 0.8612307420897861,
+      "raw_score": 0.6448099336161329,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_modesty",
+      "name": "Modesty",
+      "category": "personality",
+      "percentile": 0.7726811931877458,
+      "raw_score": 0.4878296372120642,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_morality",
+      "name": "Uncompromising",
+      "category": "personality",
+      "percentile": 0.8907910233571188,
+      "raw_score": 0.6838825205363435,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_sympathy",
+      "name": "Sympathy",
+      "category": "personality",
+      "percentile": 0.994218470874908,
+      "raw_score": 0.759901709852522,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_trust",
+      "name": "Trust",
+      "category": "personality",
+      "percentile": 0.9036111955659848,
+      "raw_score": 0.6394572920931907,
+      "significant": true
+    }
+  ]
+}, {
+  "trait_id": "big5_neuroticism",
+  "name": "Emotional range",
+  "category": "personality",
+  "percentile": 0.5008224041628085,
+  "raw_score": 0.4674820000702459,
+  "significant": true,
+  "children": [
+    {
+      "trait_id": "facet_anger",
+      "name": "Fiery",
+      "category": "personality",
+      "percentile": 0.1764002205850792,
+      "raw_score": 0.4849031569180186,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_anxiety",
+      "name": "Prone to worry",
+      "category": "personality",
+      "percentile": 0.4288307606218654,
+      "raw_score": 0.5818806184582839,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_depression",
+      "name": "Melancholy",
+      "category": "personality",
+      "percentile": 0.15019740428715428,
+      "raw_score": 0.38284678423447266,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_immoderation",
+      "name": "Immoderation",
+      "category": "personality",
+      "percentile": 0.26916719249301657,
+      "raw_score": 0.4769421865258905,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_self_consciousness",
+      "name": "Self-consciousness",
+      "category": "personality",
+      "percentile": 0.3035154334067464,
+      "raw_score": 0.5196515289516257,
+      "significant": true
+    },
+    {
+      "trait_id": "facet_vulnerability",
+      "name": "Susceptible to stress",
+      "category": "personality",
+      "percentile": 0.38972068326779474,
+      "raw_score": 0.44977966970810573,
+      "significant": true
+    }
+  ]
+}]
