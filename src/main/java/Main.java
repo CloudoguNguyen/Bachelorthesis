@@ -2,15 +2,23 @@ import com.ibm.watson.developer_cloud.personality_insights.v3.model.Profile;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
+        Dialogflow.authImplicit();
+
+        List<String> texts = new ArrayList<>();
+
+        texts.add("Open an account");
+        texts.add("whats your name?");
+
+
         try {
-            Hangout h = new Hangout();
-        } catch (GeneralSecurityException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+            Dialogflow.detectIntentTexts("secondbanking",texts,"abc","en");
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

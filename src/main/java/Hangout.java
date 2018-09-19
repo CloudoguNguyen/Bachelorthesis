@@ -16,6 +16,7 @@ public class Hangout {
     private JacksonFactory jsonFactory;
     HangoutsChat chat;
 
+
     public Hangout() throws GeneralSecurityException, IOException {
          httpTransport = GoogleNetHttpTransport.newTrustedTransport();
          jsonFactory = JacksonFactory.getDefaultInstance();
@@ -27,7 +28,7 @@ public class Hangout {
                 .setApplicationName("test").build();*/
 
         chat = new HangoutsChat.Builder(httpTransport,jsonFactory,null).build();
-
+        System.out.println(chat.spaces().list());
     }
 
 }

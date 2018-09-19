@@ -46,6 +46,16 @@
             <artifactId>google-cloud-dialogflow</artifactId>
             <version>0.62.0-alpha</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-storage</artifactId>
+            <version>1.44.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.auth</groupId>
+            <artifactId>google-auth-library-appengine</artifactId>
+            <version>0.11.0</version>
+        </dependency>
     </dependencies>
 
 </project>
